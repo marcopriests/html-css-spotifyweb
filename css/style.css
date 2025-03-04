@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body {    
+    font-family: "League Spartan";
+}
+
 /* utility */
 .d-flex {
     display: flex;
@@ -37,7 +41,6 @@
 main {
     height: calc(100vh - 80px);
     background-color: #141922;
-    font-family: "League Spartan";
 }
 
 #main-content {    
@@ -184,4 +187,98 @@ header {
 footer {
     height: 80px;
     background-color: #282828;
+}
+
+.player {
+    width: 90%;
+    padding: 10px 0;
+    margin: 0 auto;
+}
+
+.actual-song {
+    width: 30%;
+}
+
+.actual-song img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.song-info {
+    color: white;
+    margin-right: 15px;
+}
+
+.song-info .song-album{
+    font-size: 12px;
+}
+
+.song-info .song-name {
+    font-size: 10px;
+    opacity: .5;
+}
+
+.player-icons i{
+    display: block;
+    margin: 5px 0;
+    color: white;
+    opacity: .5;
+}
+
+.controls {
+    width: 40%;
+    color: white;
+    padding: 0 10px;
+}
+
+.player-buttons {
+    margin-bottom: 10px;
+}
+
+.player-buttons .play{
+    font-size: 30px;
+}
+
+.track{
+    width: 70%;
+    height: 4px;
+    background: gray;
+    border-radius: 50px;
+}
+
+.track .actual-track{
+    width: 20%;
+    height: 100%;
+    border-radius: 50px;
+    background: white;
+}
+
+
+.audio-settings{
+    width: 30%;
+}
+
+.settings-icons{
+    width: 40%;
+}
+
+.settings-icons i{
+    color: white;
+    margin-left: 2px;
+    font-size: 10px;
+}
+
+.volume-slider {
+    width: 60%;
+    height: 3px;
+    border-radius: 50px;
+    background-color: gray;
+    margin-left: 5px;
+}
+
+.actual-volume {
+    width: 70%;
+    height: 100%;
+    background-color: white;
 }

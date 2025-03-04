@@ -9,6 +9,9 @@
     <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Spotify</title>
     <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
 </head>
@@ -217,20 +220,66 @@
 
     <footer>
         <!-- player -->
-         <div class="player">
+        <div class="player">
             <div class="player-content d-flex space-between align-items-center">
 
                 <!-- brano in riproduzione -->
-                 <div class="actual-song d-flex">
+                <div class="actual-song d-flex align-items-center">
                     <img src="./img/sinister.jpeg" alt="" class="song-cover">
 
                     <div class="song-info">
                         <h6 class="song-album">Sinister</h6>
                         <p class="song-name">Brano Nome</p>
                     </div>
+                    
+                    <!-- heart and folder icons -->
+                    <div class="player-icons">
+                        <i class="fa-regular fa-heart"></i>
+                        <i class="fa-regular fa-folder"></i>
+                    </div>
+                </div>
+
+                <!-- controls -->
+                 <div class="controls">
+                    <!-- buttons -->
+                    <div class="player-buttons d-flex space-between align-items-center">
+                        <i class="fa-solid fa-shuffle"></i>
+                        <i class="fa-solid fa-backward-step"></i>
+                        <i class="fa-regular fa-circle-play play"></i>
+                        <i class="fa-solid fa-backward-step"></i>
+                        <i class="fa-solid fa-rotate-right"></i>
+                    </div>
+
+                    <!-- audio track -->
+                     <div class="audio-track d-flex space-between align-items-center">
+                        <h6 class="actual-time">0:25</h6>
+
+                        <div class="track">
+                            <div class="actual-track"></div>
+                        </div>
+
+                        <h6 class="total-time">4:35</h6>
+                     </div>
                  </div>
+
+                <!-- audio settings -->
+                <div class="audio-settings d-flex align-items-center">
+
+                    <!-- heart and folder icons -->
+                    <div class="settings-icons">
+                        <i class="fa-solid fa-list-ul"></i>
+                        <i class="fa-solid fa-display"></i>
+                        <i class="fa-solid fa-volume-high"></i>
+                    </div>
+
+                    <!-- volume slider -->
+                     <div class="volume-slider">
+                        <div class="actual-volume"></div>
+                     </div>
+                </div>
+
             </div>
-         </div>
+        </div>
     </footer>
 </body>
 
