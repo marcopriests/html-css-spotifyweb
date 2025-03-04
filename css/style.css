@@ -3,3 +3,64 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* utility */
+.d-flex {
+    display: flex;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+/* Specifics */
+main {
+    height: calc(100vh - 80px);
+    background-color: #141922;
+    font-family: "League Spartan";
+}
+
+header {
+    height: 80px;
+    width: calc(100% - 50px);
+    background-color: #080b12;
+    position: sticky;
+    top: 0;
+    text-align: right;
+    padding: 10px;
+}
+
+#sidebar {
+    width: 50px;
+    background-color: black;
+}
+
+.sidebar-icon {
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    margin: 10px auto;
+}
+
+.upgrade {
+    display: inline-block;
+    position: relative;
+    padding: 10px 30px;
+    border: 1px solid white;
+    border-radius: 50px;
+    color: white;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+footer {
+    height: 80px;
+    background-color: #282828;
+}
