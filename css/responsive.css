@@ -1,0 +1,58 @@
+/* S */
+@media screen and (min-width: 576px) {
+    #sidebar {
+        width: 300px;
+        align-items: flex-start;
+    }
+
+    .sidebar-icon {
+        margin-left: 20px;
+        display: flex;
+        align-items: center;
+    }
+
+    .sidebar-icon .logo-small {
+        display: none;
+    }
+
+    .sidebar-icon .logo-big {
+        display: block;
+        height: 100%;
+    }
+
+    #sidebar-top .sidebar-icon:first-child{
+        width: 40px;
+        height: 40px;
+    }
+
+    .label {
+        display: block;
+        margin-left: 5px;
+        color: gray;
+    }
+
+    .sidebar-icon:nth-child(2) .label {
+        color: white;
+    }
+
+    .sidebar-icon .download{
+        width: 30px;
+    }
+
+    .sidebar-icon .download{
+        height: 70%;
+    }
+
+    #sidebar-bottom hr{
+        display: block;
+    }
+
+    .menu-content ul {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .album {
+        max-width: 160px;
+    }
+}

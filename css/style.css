@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-body {    
+body {
     font-family: "League Spartan";
 }
 
@@ -43,14 +43,15 @@ main {
     background-color: #141922;
 }
 
-#main-content {    
+#main-content {
     width: calc(100% - 50px);
-    
+
     overflow-y: auto;
 }
 
 header {
-    height: 80px;;
+    height: 80px;
+    ;
     background-color: #080b12;
     opacity: .8;
     position: sticky;
@@ -66,18 +67,37 @@ header {
 }
 
 .sidebar-icon {
-    width: 30px;
     height: 30px;
     margin: 10px auto;
     text-align: center;
 }
 
-.sidebar-icon .logo-big{
+.sidebar-icon img {
+    height: 100%;
+}
+
+.label {
     display: none;
 }
 
-.sidebar-icon .search, .sidebar-icon .library, .sidebar-icon .download {
+.sidebar-icon .logo-big {
+    display: none;
+}
+
+.sidebar-icon .search,
+.sidebar-icon .library,
+.sidebar-icon .download {
     opacity: .5;
+}
+
+#sidebar-bottom {
+    width: 100%;
+}
+
+#sidebar-bottom hr{
+    display: none;
+    width: 90%;
+    margin: 0 auto;
 }
 
 .sidebar-icon .download {
@@ -85,7 +105,7 @@ header {
 }
 
 .login img {
-    width: 100%;
+    width: 30px;
     height: 100%;
     background-color: gray;
     border-radius: 100%;
@@ -108,10 +128,10 @@ header {
 .menu-content ul li {
     position: relative;
     list-style-type: none;
-    margin: 10px ;
+    margin: 10px;
 }
 
-.menu-content ul li a{    
+.menu-content ul li a {
     color: gray;
     text-decoration: none;
     text-transform: uppercase;
@@ -151,7 +171,7 @@ header {
     margin-top: 5px;
 }
 
-.album {    
+.album {
     max-width: 190px;
 }
 
@@ -176,7 +196,7 @@ header {
     font-weight: 600;
 }
 
-#popular-artists .cover-img{
+#popular-artists .cover-img {
     border-radius: 100%;
 }
 
@@ -208,7 +228,7 @@ footer {
     margin-right: 15px;
 }
 
-.song-info .song-album{
+.song-info .song-album {
     font-size: 12px;
 }
 
@@ -217,7 +237,7 @@ footer {
     opacity: .5;
 }
 
-.player-icons i{
+.player-icons i {
     display: block;
     margin: 5px 0;
     color: white;
@@ -234,18 +254,18 @@ footer {
     margin-bottom: 10px;
 }
 
-.player-buttons .play{
+.player-buttons .play {
     font-size: 30px;
 }
 
-.track{
+.track {
     width: 70%;
     height: 4px;
     background: gray;
     border-radius: 50px;
 }
 
-.track .actual-track{
+.track .actual-track {
     width: 20%;
     height: 100%;
     border-radius: 50px;
@@ -253,16 +273,16 @@ footer {
 }
 
 
-.audio-settings{
+.audio-settings {
     width: 30%;
 }
 
-.settings-icons{
+.settings-icons {
     width: 50%;
     text-align: right;
 }
 
-.settings-icons i{
+.settings-icons i {
     color: white;
     margin-right: 5px;
     font-size: 12px;
