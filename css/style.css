@@ -140,8 +140,16 @@ header {
     margin: 20px 0;
 }
 
+.section-description {
+    color: white;
+    opacity: .5;
+    font-size: 16px;
+    font-weight: 100;
+    margin-top: 5px;
+}
+
 .album {    
-    max-width: 38vw;
+    max-width: 190px;
 }
 
 .cover-img {
