@@ -173,6 +173,10 @@ header {
     font-weight: 600;
 }
 
+#popular-artists .cover-img{
+    border-radius: 100%;
+}
+
 
 
 
