@@ -197,8 +197,7 @@ header {
 }
 
 .container {
-    width: 90%;
-    margin: 0 auto;
+    padding: 0 20px;
 }
 
 .container-content {
@@ -222,6 +221,7 @@ header {
 
 .album {
     max-width: 190px;
+    padding: 5px;
 }
 
 .cover-img {

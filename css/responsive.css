@@ -41,14 +41,6 @@
         color: white;
     }
 
-    .sidebar-icon .download{
-        width: 30px;
-    }
-
-    .sidebar-icon .download{
-        height: 70%;
-    }
-
     #sidebar-bottom {
         align-items: flex-start;
     }
@@ -66,13 +58,30 @@
         display: block;
     }
 
+    .container-content {
+        justify-content: flex-start;
+        gap: 0 10px;
+    }
+
     .menu-content ul {
         width: 80%;
         margin: 0 auto;
     }
 
     .album {
-        max-width: calc(100% / 2.1);
+        max-width: calc(100% / 2);
+    }
+
+    .actual-song {
+        width: 25%;
+    }
+
+    .controls {
+        width: 50%;
+    }
+
+    .audio-settings {
+        width: 25%;
     }
 }
 
@@ -83,13 +92,13 @@
         margin: 0 auto;
     }
 
-    .container-content {
-        justify-content: flex-start;
+    .album {
+        max-width: calc(100% / 4.4);
+        margin-right: 10px;
     }
 
-    .album {
-        max-width: calc(100% / 4.5);
-        margin-right: 10px;
+    .album-info .album-name {
+        font-size: 14px;
     }
 
     .song-info {
@@ -108,5 +117,44 @@
 
     .settings-icons i {
         margin-right: 10px;
+    }
+}
+
+/* LG */
+@media screen and (min-width: 1024px) {
+    #sidebar {
+        width: 200px;
+    }
+
+    .sidebar-icon{
+        height: 20px;
+    }
+
+    #sidebar-top .sidebar-icon:first-child{
+        height: 30px;
+    }
+
+    .login img{
+        width: 20px;
+    }
+
+    .playlist-list li{
+        margin: 10px 0;
+    }
+
+    #sidebar-bottom hr {
+        display: none;
+    }
+
+    .album {
+        max-width: calc(100% / 6.6);
+    }
+
+    .album-info .album-name {
+        font-size: 14px;
+    }
+
+    .controls .player-buttons{
+        width: 35%;
     }
 }
