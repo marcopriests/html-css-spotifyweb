@@ -12,17 +12,17 @@
         position: relative;
     }
 
-    .sidebar-icon .logo-small {
+    .logo .logo-small {
         display: none;
     }
 
-    .sidebar-icon .logo-big {
+    .logo .logo-big {
         display: block;
         height: 100%;
         margin-bottom: 20px;
     }
 
-    #sidebar-top .sidebar-icon:first-child{
+    .logo{
         width: 40px;
         height: 40px;
     }

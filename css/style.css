@@ -73,16 +73,25 @@ header {
     padding: 10px 0;
 }
 
-#sidebar-top img {
+.sidebar-icon img {
     opacity: .5;
 }
 
-#sidebar-bottom .download img{
-    opacity: .5;
+.login img {
+    opacity: 1;
 }
 
 #sidebar-top .sidebar-icon:nth-child(2) img {
     opacity: 1;
+}
+
+.logo {
+    height: 30px;
+    margin: 10px 0;
+}
+
+.logo img {
+    height: 100%;
 }
 
 .sidebar-icon {
@@ -108,7 +117,7 @@ header {
     display: none;
 }
 
-.sidebar-icon .logo-big {
+.logo .logo-big {
     display: none;
 }
 
@@ -362,5 +371,21 @@ footer {
 /* HOVER */
 .sidebar-icon:hover .label{
     color: white;
+    cursor: pointer;
+}
+
+.sidebar-icon:hover img{
+    opacity: 1;
+    cursor: pointer;
+}
+
+.playlist li:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.menu-content li a:hover {
+    color: white;
+    opacity: 1;
     cursor: pointer;
 }
