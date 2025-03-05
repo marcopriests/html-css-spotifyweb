@@ -60,16 +60,11 @@
 
     .container-content {
         justify-content: flex-start;
-        gap: 0 10px;
     }
 
     .menu-content ul {
         width: 80%;
         margin: 0 auto;
-    }
-
-    .album {
-        max-width: calc(100% / 2);
     }
 
     .actual-song {
@@ -93,8 +88,7 @@
     }
 
     .album {
-        max-width: calc(100% / 4.4);
-        margin-right: 10px;
+        width: calc(100% / 4);
     }
 
     .album-info .album-name {
@@ -121,7 +115,7 @@
 }
 
 /* LG */
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 992px) {
     #sidebar {
         width: 200px;
     }
@@ -147,7 +141,7 @@
     }
 
     .album {
-        max-width: calc(100% / 6.6);
+        max-width: calc(100% / 6);
     }
 
     .album-info .album-name {
@@ -156,5 +150,13 @@
 
     .controls .player-buttons{
         width: 35%;
+    }
+
+    .controls .track{
+        width: 85%;
+    }
+
+    .volume-slider {
+        width: 40%;
     }
 }
