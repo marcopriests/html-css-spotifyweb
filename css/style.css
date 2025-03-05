@@ -319,6 +319,7 @@ footer {
 
 .player-buttons .play {
     font-size: 30px;
+    transition: .3s;
 }
 
 .track {
@@ -333,6 +334,15 @@ footer {
     height: 100%;
     border-radius: 50px;
     background: white;
+}
+
+.track .actual-track-ball {
+    display: none;
+    width: 15px;
+    height: 15px;
+    border: 2px solid white;
+    border-radius: 50px;
+    background: #25ce49;
 }
 
 
@@ -365,6 +375,15 @@ footer {
     background-color: white;
 }
 
+.actual-volume-ball {
+    display: none;
+    width: 15px;
+    height: 15px;
+    border: 2px solid white;
+    border-radius: 50px;
+    background: #25ce49;
+}
+
 /* HOVER */
 .sidebar-icon:hover .label{
     color: white;
@@ -389,4 +408,43 @@ footer {
 
 .upgrade:hover {
     transform: scale(1.1);
+    cursor: pointer;
+}
+
+.song-name:hover {
+    color: white;
+    text-decoration: underline;
+    opacity: 1;
+    cursor: pointer;
+}
+
+.player-icons i:hover {
+    color: white;
+    opacity: 1;
+    cursor: pointer;
+}
+
+.play:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.track:hover .actual-track{
+    background-color: #25ce49;
+    cursor: pointer;
+}
+
+.track:hover .actual-track-ball {
+    display: block;
+    cursor: pointer;
+}
+
+.volume-slider:hover .actual-volume {
+    background-color: #25ce49;
+    cursor: pointer;
+}
+
+.volume-slider:hover .actual-volume-ball {
+    display: block;
+    cursor: pointer;
 }
