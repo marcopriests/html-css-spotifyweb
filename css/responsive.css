@@ -3,10 +3,10 @@
     #sidebar {
         width: 300px;
         align-items: flex-start;
+        padding: 0 20px;
     }
 
     .sidebar-icon {
-        margin-left: 20px;
         display: flex;
         align-items: center;
     }
@@ -44,6 +44,15 @@
     }
 
     #sidebar-bottom hr{
+        display: block;
+        opacity: .5;
+    }
+
+    .login .label {
+        color: white;
+    }
+
+    .playlist {
         display: block;
     }
 

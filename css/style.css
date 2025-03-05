@@ -68,7 +68,7 @@ header {
 
 .sidebar-icon {
     height: 30px;
-    margin: 10px auto;
+    margin: 10px 0;
     text-align: center;
 }
 
@@ -109,6 +109,29 @@ header {
     height: 100%;
     background-color: gray;
     border-radius: 100%;
+}
+
+.playlist {
+    position: relative;
+    display: none;
+    color: gray;
+    top: -60px;
+}
+
+.playlist .playlist-title{
+    text-transform: uppercase;
+    font-size: 14px;
+    color: white;
+}
+
+.playlist-list li {
+    list-style-type: none;
+    margin: 10px 0;
+}
+
+.add-playlist i {
+    font-size: 40px;
+    margin-right: 10px;
 }
 
 .upgrade {
@@ -284,7 +307,7 @@ footer {
 
 .settings-icons i {
     color: white;
-    margin-right: 5px;
+    margin-right: 3px;
     font-size: 12px;
 }
 
