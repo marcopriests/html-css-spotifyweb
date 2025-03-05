@@ -237,6 +237,22 @@ header {
     padding: 5px;
 }
 
+.cover {
+    position: relative;
+}
+
+.hover-play {
+    display: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    color: white;
+    font-size: 50px;
+    background-color: #080b12af;
+    justify-content: center;
+    align-items: center;
+}
+
 .cover-img {
     width: 100%;
 }
@@ -263,7 +279,9 @@ header {
     border-radius: 100%;
 }
 
-
+#popular-artists .hover-play {
+    border-radius: 100%;
+}
 
 
 
@@ -447,4 +465,8 @@ footer {
 .volume-slider:hover .actual-volume-ball {
     display: block;
     cursor: pointer;
+}
+
+.album:hover .hover-play{
+    display: flex;
 }
