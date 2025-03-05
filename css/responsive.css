@@ -9,6 +9,7 @@
     .sidebar-icon {
         display: flex;
         align-items: center;
+        position: relative;
     }
 
     .sidebar-icon .logo-small {
@@ -29,6 +30,10 @@
         display: block;
         margin-left: 5px;
         color: gray;
+    }
+
+    .active-tab{
+        display: block;
     }
 
     .sidebar-icon:nth-child(2) .label {
