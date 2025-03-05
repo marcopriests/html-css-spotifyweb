@@ -137,6 +137,7 @@ header {
     text-transform: uppercase;
     font-size: 14px;
     color: white;
+    margin-bottom: -10px;
 }
 
 .playlist-list li {
@@ -198,6 +199,10 @@ header {
 .container {
     width: 90%;
     margin: 0 auto;
+}
+
+.container-content {
+    justify-content: space-between;
 }
 
 .section-title {
