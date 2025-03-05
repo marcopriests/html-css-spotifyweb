@@ -27,6 +27,7 @@
                 </div>
 
                 <div class="sidebar-icon">
+                    <div class="active-tab"></div>
                     <img src="./img/home.svg" alt="" class="home">
                     <h4 class="label">Home</h4>
                 </div>
@@ -40,16 +41,54 @@
                     <img src="./img/libreria.svg" alt="" class="library">
                     <h4 class="label">La tua libreria</h4>
                 </div>
+
+                <!-- sidebar playlists -->
+
+                <div class="playlist">
+
+                    <h4 class="playlist-title">Playlist</h4>
+
+
+
+                    <ul class="playlist-list">
+
+                        <li class="add-playlist d-flex align-items-center">
+
+                            <i class="fa-solid fa-square-plus"></i>
+
+                            Crea Playlist
+
+                        </li>
+
+
+
+                        <li>Nome Playlist</li>
+
+                        <li>Nome Playlist</li>
+
+                        <li>Nome Playlist</li>
+
+                        <li>Nome Playlist</li>
+
+                        <li>Nome Playlist</li>
+
+                        <li>Nome Playlist</li>
+
+                        <li>Nome Playlist</li>
+
+                    </ul>
+
+                </div>
             </div>
 
-            <div id="sidebar-bottom">
-                <div class="sidebar-icon">
-                    <img src="./img/download.svg" alt="" class="download">
+            <div id="sidebar-bottom" class="d-flex flex-column">
+                <div class="sidebar-icon download">
+                    <img src="./img/download.svg" alt="">
                     <h4 class="label">Installa app</h4>
                 </div>
-                
+
                 <hr>
-                
+
                 <div class="sidebar-icon login">
                     <img src="./img/profile.svg" alt="">
                     <h4 class="label profile-name">John Doe</h4>
@@ -95,7 +134,7 @@
             <div class="container">
                 <h2 class="section-title">Recently played</h2>
 
-                <div class="container-content d-flex wrap">
+                <div class="container-content d-flex wrap space-between">
 
                     <!-- album 1 -->
                     <div class="album">
@@ -239,7 +278,7 @@
                         <h6 class="song-album">Sinister</h6>
                         <p class="song-name">Brano Nome</p>
                     </div>
-                    
+
                     <!-- heart and folder icons -->
                     <div class="player-icons">
                         <i class="fa-regular fa-heart"></i>
@@ -248,7 +287,7 @@
                 </div>
 
                 <!-- controls -->
-                 <div class="controls">
+                <div class="controls">
                     <!-- buttons -->
                     <div class="player-buttons d-flex space-between align-items-center">
                         <i class="fa-solid fa-shuffle"></i>
@@ -259,7 +298,7 @@
                     </div>
 
                     <!-- audio track -->
-                     <div class="audio-track d-flex space-between align-items-center">
+                    <div class="audio-track d-flex space-between align-items-center">
                         <h6 class="actual-time">0:25</h6>
 
                         <div class="track">
@@ -267,8 +306,8 @@
                         </div>
 
                         <h6 class="total-time">4:35</h6>
-                     </div>
-                 </div>
+                    </div>
+                </div>
 
                 <!-- audio settings -->
                 <div class="audio-settings d-flex align-items-center">
@@ -281,9 +320,9 @@
                     </div>
 
                     <!-- volume slider -->
-                     <div class="volume-slider">
+                    <div class="volume-slider">
                         <div class="actual-volume"></div>
-                     </div>
+                    </div>
                 </div>
 
             </div>

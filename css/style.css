@@ -73,6 +73,18 @@ header {
     padding: 10px 0;
 }
 
+#sidebar-top img {
+    opacity: .5;
+}
+
+#sidebar-bottom .download img{
+    opacity: .5;
+}
+
+#sidebar-top .sidebar-icon:nth-child(2) img {
+    opacity: 1;
+}
+
 .sidebar-icon {
     height: 30px;
     margin: 10px 0;
@@ -98,12 +110,6 @@ header {
 
 .sidebar-icon .logo-big {
     display: none;
-}
-
-.sidebar-icon .search,
-.sidebar-icon .library,
-.sidebar-icon .download {
-    opacity: .5;
 }
 
 #sidebar-bottom {
@@ -351,4 +357,10 @@ footer {
     width: 70%;
     height: 100%;
     background-color: white;
+}
+
+/* HOVER */
+.sidebar-icon:hover .label{
+    color: white;
+    cursor: pointer;
 }
