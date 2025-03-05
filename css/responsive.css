@@ -19,6 +19,7 @@
     .sidebar-icon .logo-big {
         display: block;
         height: 100%;
+        margin-bottom: 20px;
     }
 
     #sidebar-top .sidebar-icon:first-child{
@@ -48,6 +49,10 @@
         height: 70%;
     }
 
+    #sidebar-bottom {
+        align-items: flex-start;
+    }
+
     #sidebar-bottom hr{
         display: block;
         opacity: .5;
@@ -68,5 +73,12 @@
 
     .album {
         max-width: 160px;
+    }
+}
+
+/* MD */
+@media screen and (min-width: 768px) {
+    .playlist {
+        top: -180px;
     }
 }
