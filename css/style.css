@@ -84,16 +84,11 @@ header {
     opacity: 1;
 }
 
-.logo {
-    height: 30px;
-    margin: 10px 0;
-}
-
 .logo img {
     height: 100%;
 }
 
-.sidebar-icon {
+.sidebar-icon, .logo {
     height: 30px;
     margin: 10px 0;
     text-align: center;
